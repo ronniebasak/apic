@@ -1,5 +1,5 @@
 from pydantic import BaseModel, field_validator
-from apic.model import ApicUI
+from apic.__dep_ui import ApicUI
 import streamlit as st
 
 class Shona(BaseModel):
